@@ -1,0 +1,40 @@
+publiccodeYmlVersion: 0.4.0
+name: jeap-devops-tools
+applicationSuite: jEAP
+softwareVersion: 1.0.0
+releaseDate: 2026-06-23
+url: "https://github.com/jeap-admin-ch/jeap-devops-tools.git"
+landingURL: "https://github.com/jeap-admin-ch/jeap"
+platforms:
+  - linux
+  - mac
+categories:
+  - application-development
+developmentStatus: stable
+softwareType: standalone/other
+organisation:
+  uri: https://ld.admin.ch/office/V.1.7
+  name: Federal Office of Information Technology, Systems and Telecommunication
+description:
+  en:
+    localisedName: jeap-devops-tools
+    shortDescription: Supporting tools and documentation for developing, maintaining and operating jEAP-based applications
+    longDescription: >
+      jeap-devops-tools is a home for tools and documentation that help developers and DevOps
+      engineers develop, maintain and operate jEAP-based applications. Each entry has its own
+      documentation, and new tools and documentation may be added over time.
+
+    features:
+      - Obtain a personal, traceable OAuth2 access token on the command line for calling OIDC/OAuth2-protected endpoints with curl
+      - Adapt an OIDC discovery document by overriding endpoints for developer machines (oidc-discovery-override.sh)
+legal:
+  license: Apache-2.0
+maintenance:
+  type: internal
+  contacts:
+    - name: Federal Office of Information Technology, Systems and Telecommunication FOITT
+      email: jeap-community@bit.admin.ch
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - en

@@ -3,7 +3,7 @@
 This folder holds the automated test suite for
 [`oidc-discovery-override.sh`](../oidc-discovery-override.sh) and the script to run it. It
 is aimed at **maintainers** of `cli-oauth2-login` — not at users of the `oidc-agent` /
-`oidc-discovery-override.sh` workflow. Users should read the [user guide](../README.md).
+`oidc-discovery-override.sh` workflow. Users should read the [user guide](../../docs/cli-oauth2-login.md).
 
 ## Running the tests
 
