@@ -82,7 +82,7 @@ sudo apt-get install oidc-agent
 This provides the command-line tools (`oidc-gen`, `oidc-token`, `oidc-add`,
 `oidc-keychain`, `oidc-agent`) and usually is sufficient for the **standard case**. For other
 operating systems, see the
-[oidc-agent installation docs](https://indigo-dc.github.io/oidc-agent/installation/install.html).
+[oidc-agent installation docs](https://indigo-dc.github.io/oidc-agent/installation/install/).
 
 If you need the **OIDC discovery override** (`--config-endpoint`) and your distribution
 ships an older `oidc-agent` — Ubuntu 22.04 LTS, for example, ships 4.x — install a current
